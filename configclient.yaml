@@ -1,4 +1,2 @@
 server:
   port: 8690
-  profiles:
-    active: dev
