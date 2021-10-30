@@ -1,13 +1,4 @@
 server:
   port: 8690
-spring:
-  application:
-    name: configclient
-  cloud:
-    consul:
-      discovery:
-        service-name: CONFIGCLIENT
-        hostname: localhost
-        port: 8500
   profiles:
     active: dev
